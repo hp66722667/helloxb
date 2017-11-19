@@ -3,7 +3,7 @@ namespace app\index\controller;
 use Qiniu\Auth;
 use Qiniu\Storage\UploadManager;
 
-class Index
+class Index extends Controller
 {
     public function index()
     {
