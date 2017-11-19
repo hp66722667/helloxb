@@ -12,7 +12,7 @@ class Index
         $secretKey = 'WOQSbsf1wrpZIh6-W3rL9jOaqExpcD4sZ_Srdg3i';
         $auth = new Auth($accessKey, $secretKey);
         $upToken = $auth->uploadToken($bucket);
-        this->assign([
+        $this->assign([
             'uptoken'=>$upToken,
         ]);
         return $this->fetch();
