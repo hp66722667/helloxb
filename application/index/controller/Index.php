@@ -1,6 +1,6 @@
 <?php
 namespace app\index\controller;
-use Qiniu\Auth as Auth;
+use Qiniu\Auth;
 use Qiniu\Storage\UploadManager;
 
 class Index
